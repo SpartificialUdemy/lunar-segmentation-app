@@ -7,7 +7,7 @@ Hey, this repository will help you set up your webapp for lunar image segmentati
 ## Setup
 1. Clone or Download the Repository and open the project directory in your editor (VS Code)
 2. Create your virtual environment using `python -m venv <name_of_the_venv>`
-3. Activate your virtual environment using `.<name_of_the_venv>\Scripts\activate`
+3. Activate your virtual environment using `.\<name_of_the_venv>\Scripts\activate`
 4. Install the requirements using `python -m pip install -r requirements.txt`
 5. You can train your model using the [`train_model.ipynb`](https://github.com/SpartificialUdemy/lunar-segmentation-app/blob/main/train_model.ipynb) python notebook via [Kaggle](https://www.kaggle.com/)
 6. Add your trained model in [`models`](https://github.com/SpartificialUdemy/lunar-segmentation-app/tree/main/models) and remove if there are other models present there
