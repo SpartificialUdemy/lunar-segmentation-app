@@ -7,7 +7,7 @@ Hey, this repository will help you set up your webapp for lunar image segmentati
 ## Setup
 1. Clone or Download the Repository and open the project directory in your editor (VS Code)
 2. Install the requirements
-3. You can train your model using the python notebook via [Kaggle](https://www.kaggle.com/)
+3. You can train your model using the [`train_model.ipynb`](https://github.com/SpartificialUdemy/lunar-segmentation-app/blob/main/train_model.ipynb) python notebook via [Kaggle](https://www.kaggle.com/)
 4. Add your trained model in `models` and remove if there are other models present there
 5. In command prompt first run your FastAPI app:- `uvicorn backend:app --reload`
 6. Then again open command prompt and run the streamlit app:- `streamlit run frontend.py`
