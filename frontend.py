@@ -4,6 +4,8 @@ import streamlit as st
 import requests
 from utils import preprocess_image
 
+st.set_page_config(page_title = "Segment Moon", page_icon = ":moon:")
+
 # URL of your FastAPI backend endpoint for image segmentation
 FASTAPI_URL = "http://localhost:8000/segment/"
 
